@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* react-day-picker v8 theme overrides to match the Airbnb-style calendar */
+.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-accent-color: #222222;
+  --rdp-background-color: #f7f7f7;
+  margin: 0;
+}
